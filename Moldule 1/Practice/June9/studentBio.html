@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Bio</title>
+</head>
+<style>
+    h1{
+        background-color:rgb(63, 61, 61);
+        margin:0;
+        padding:10px;
+        color:white;
+        text-align:center;
+    }
+    div{
+        padding:19px;
+    }
+    body{
+        margin:0;
+    }
+    .left{
+        float:left;
+    }
+    .right{
+        float:right;
+    }
+    .clearfix::after{
+        content:"";
+        display:block;
+        clear:both;
+
+    }
+    .beige {
+        background-color:rgb(223, 223, 196);
+    }
+
+    .left-div {
+        width:60%;
+    }
+    .right-div {
+        width:25%;
+        padding-right: 10px;
+    }
+    .left-padding {
+        padding-left:10px;
+    }
+    p {
+        width: 60%;
+        padding-left: 10px;
+    }
+    #contact {
+        padding-left: 20px;
+    }
+</style>
+<body>
+    <h1>Student Bio</h1>
+     <div class="beige clearfix"> 
+        <div class="left left-div" >
+            <h2>Your Name</h2>
+            <img class="left" src="https://via.placeholder.com/150">
+            <p class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quidem eos maxime vero accusamus dolorem tempore et autem ab! Aut.</p>
+        </div>
+
+
+
+        <div class="right right-div">
+            <h2 id="contact" >Contact Info</h2>
+                <ul>
+                    <li>Email<a href="https://google.com">My@email.com</a></li>
+                    <li>github <a href="https://google.com">mygithub.com</a></li>
+                    <li>Portfolio <a href="https://google.com">Coming Soon</a></li>
+                </ul>
+        </div>
+
+
+</div>
+
+  
+    
+</body>
+</html>

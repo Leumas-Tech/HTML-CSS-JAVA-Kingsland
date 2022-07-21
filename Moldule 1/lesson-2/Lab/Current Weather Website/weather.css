@@ -1,0 +1,156 @@
+h2.main-title {
+    text-transform: uppercase;
+
+}
+
+.town:first-letter {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.left{
+    float:left;
+}
+.right {
+    float: right;
+    margin-top: 140px;
+
+
+}
+
+.pic {
+    height: 100%;
+}
+
+.temp {
+    font-size: 60px;
+    font-weight: bold;
+}
+.temp2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p{
+ margin: auto;
+}
+
+.weathertable{
+
+    width: 30%;
+     position: absolute;
+    right: 3%;
+    /* padding-right: 5%; */
+    line-height: 50px;
+    font-size:22px;
+    
+}
+
+footer {
+    position: absolute; 
+
+    width: 100%;
+    padding: 3%;
+    color: blue;
+    background-color: lightskyblue;
+    text-decoration: underline;
+} 
+.border {
+    border: solid 2px skyblue;
+    border-radius: 20px;
+    width: 98%;
+    height: auto;
+
+}
+.clearfix{
+    overflow:auto;
+
+}
+.space {
+    margin: 10px
+}
+/* 
+
+
+.left {
+    float: left;
+
+}
+.right {
+    float: right;
+}
+
+img {
+    width:250px;
+    margin: 10px;
+    
+
+}
+
+.temp {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.feel{
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+
+.tempZone {
+    position: absolute;
+    left: 40%;
+    top: 27%;
+     margin: 3px; 
+    line-height: 1%;
+    text-align: left;
+
+
+}
+
+.weathertable{
+
+    width: 30%;
+   position: absolute;
+   right: 3%;
+    padding-right: 5%;
+    line-height: 50px;
+    font-size:22px;
+    
+}
+
+hr {
+    color: whitesmoke;
+}
+footer {
+    position: absolute; 
+    bottom: 1%;
+    width: 100%;
+    padding: 3%;
+    background-color: lightskyblue;
+} 
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.townName {
+    border: solid 2px skyblue;
+    border-radius: 20px;
+    width: 98%;
+    height: auto;
+}
+body {
+    padding: 1%;
+}
+.town {
+    padding-left: 3%;
+    letter-spacing: 1px;
+}
+
+
+.clearfix {
+    overflow: auto;
+}
+ */

@@ -1,0 +1,22 @@
+.pokemon{
+    border-radius: 50%;
+    align-content: center;
+    border: solid 3px #f40045;
+    height: 450px;
+    width: 450px;
+}
+:hover.pokemon{
+    border:solid 3px black;
+}
+
+.title, .data {
+    border: solid 3px black;
+}
+
+body {
+    background-color: #00dafc;
+}
+
+table, th, tr, td{
+    border: solid 3px black;
+}
